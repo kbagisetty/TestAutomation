@@ -1,0 +1,65 @@
+[
+  {
+    "keyword": "Feature",
+    "line": 1,
+    "name": "To work with home page",
+    "tags": [],
+    "uri": "C:\\E2EAutomation\\EACourseApp\\Test\\features\\Home.feature",
+    "elements": [
+      {
+        "keyword": "Scenario",
+        "line": 20,
+        "name": "Search for course from External DataSource",
+        "tags": [
+          {
+            "line": 19,
+            "name": "@regression"
+          }
+        ],
+        "id": "to-work-with-home-page;search-for-course-from-external-datasource",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I navigate to application",
+            "result": {
+              "status": "passed",
+              "duration": 1705
+            },
+            "line": 21,
+            "match": {
+              "location": "C:\\E2EAutomation\\EACourseApp\\Test\\steps\\HomeSteps.ts:11"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I enter text in search from external data source",
+            "result": {
+              "status": "passed",
+              "duration": 66
+            },
+            "line": 22,
+            "match": {
+              "location": "C:\\E2EAutomation\\EACourseApp\\Test\\steps\\HomeSteps.ts:43"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I get all the heading",
+            "result": {
+              "status": "passed",
+              "duration": 337
+            },
+            "line": 23,
+            "match": {
+              "location": "C:\\E2EAutomation\\EACourseApp\\Test\\steps\\HomeSteps.ts:15"
+            }
+          }
+        ]
+      }
+    ],
+    "id": "to-work-with-home-page"
+  }
+]
